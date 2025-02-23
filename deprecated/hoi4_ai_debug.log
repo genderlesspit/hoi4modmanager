@@ -1,0 +1,345 @@
+2025-02-23 03:45:20,241 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 03:45:20,255 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 03:45:20,526 - DEBUG - Starting component System
+2025-02-23 03:45:20,526 - DEBUG - Starting component Posthog
+2025-02-23 03:45:20,526 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 03:45:20,526 - DEBUG - Starting component SqliteDB
+2025-02-23 03:45:20,534 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 03:45:20,534 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 03:45:20,534 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 03:45:20,534 - DEBUG - Starting component LocalExecutor
+2025-02-23 03:45:20,534 - DEBUG - Starting component SegmentAPI
+2025-02-23 03:45:20,545 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 03:45:20,548 - INFO - Use pytorch device_name: cpu
+2025-02-23 03:45:20,548 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 03:45:20,551 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 03:45:20,761 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:45:20,814 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 03:45:20,884 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 03:45:21,000 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:45:21,048 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 03:45:21,054 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 03:45:21,097 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 03:45:21,146 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 03:45:21,321 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:45:21,705 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 03:45:22,208 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 03:45:22,292 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 03:45:22,355 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 03:45:22,374 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 03:45:22,375 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 03:45:22,375 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 03:45:22,375 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:45:22,375 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:45:22,375 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:45:22,916 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:45:40,402 - INFO - User Query: how do i define a focus tree?
+2025-02-23 03:45:40,845 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:47:47,270 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 03:47:47,280 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 03:47:47,484 - DEBUG - Starting component System
+2025-02-23 03:47:47,484 - DEBUG - Starting component Posthog
+2025-02-23 03:47:47,484 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 03:47:47,484 - DEBUG - Starting component SqliteDB
+2025-02-23 03:47:47,490 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 03:47:47,490 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 03:47:47,490 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 03:47:47,490 - DEBUG - Starting component LocalExecutor
+2025-02-23 03:47:47,490 - DEBUG - Starting component SegmentAPI
+2025-02-23 03:47:47,494 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 03:47:47,496 - INFO - Use pytorch device_name: cpu
+2025-02-23 03:47:47,496 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 03:47:47,499 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 03:47:47,692 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:47:47,744 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 03:47:47,793 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 03:47:47,841 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:47:47,892 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 03:47:48,007 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 03:47:48,027 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 03:47:48,076 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 03:47:48,293 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:47:48,445 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 03:47:48,535 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 03:47:48,595 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 03:47:48,666 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 03:47:48,691 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:47:48,691 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:47:48,691 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:47:48,694 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 03:47:48,694 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 03:47:48,694 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 03:47:48,694 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:47:48,694 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:47:48,694 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:47:48,893 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:47:53,410 - INFO - User Query: hi!
+2025-02-23 03:47:53,567 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:49:16,596 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 03:49:16,604 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 03:49:16,813 - DEBUG - Starting component System
+2025-02-23 03:49:16,814 - DEBUG - Starting component Posthog
+2025-02-23 03:49:16,814 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 03:49:16,814 - DEBUG - Starting component SqliteDB
+2025-02-23 03:49:16,820 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 03:49:16,820 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 03:49:16,820 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 03:49:16,820 - DEBUG - Starting component LocalExecutor
+2025-02-23 03:49:16,820 - DEBUG - Starting component SegmentAPI
+2025-02-23 03:49:16,823 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 03:49:16,826 - INFO - Use pytorch device_name: cpu
+2025-02-23 03:49:16,826 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 03:49:16,828 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 03:49:16,967 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:49:17,016 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 03:49:17,064 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 03:49:17,131 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:49:17,180 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 03:49:17,286 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 03:49:17,331 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 03:49:17,342 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 03:49:17,579 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:49:17,768 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 03:49:17,855 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 03:49:17,914 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 03:49:17,978 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 03:49:17,995 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:49:17,996 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:49:17,996 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:49:17,996 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:49:17,996 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:49:17,996 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:49:17,998 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 03:49:17,998 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 03:49:17,998 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 03:49:17,999 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:49:17,999 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:49:17,999 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:49:18,145 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:49:23,522 - INFO - User Query: hello
+2025-02-23 03:49:23,536 - ERROR - \U0001f6a8 Embeddings retrieval failed! Results: {'ids': [['id_1', 'id_2', 'id_0']], 'embeddings': None, 'documents': [['What are the effects of stability on HOI4 gameplay?', 'How can I add an event that triggers after 100 days?', 'How do I create a custom focus tree?']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[1.7310069891121123, 1.9133492748453163, 1.9899438050051883]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2025-02-23 03:49:23,537 - WARNING - Low confidence query: 'hello' | Similarity Score: 0.0000
+2025-02-23 03:49:23,537 - INFO - Performance Score: 0/1 (0.00%)
+2025-02-23 03:49:23,854 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:49:30,569 - INFO - User Query: YO
+2025-02-23 03:49:30,584 - ERROR - \U0001f6a8 Embeddings retrieval failed! Results: {'ids': [['id_2', 'id_1', 'id_0']], 'embeddings': None, 'documents': [['How can I add an event that triggers after 100 days?', 'What are the effects of stability on HOI4 gameplay?', 'How do I create a custom focus tree?']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[1.8901173733022114, 1.9359344729362713, 1.9454487552491597]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2025-02-23 03:49:30,584 - WARNING - Low confidence query: 'YO' | Similarity Score: 0.0000
+2025-02-23 03:49:30,584 - INFO - Performance Score: 0/2 (0.00%)
+2025-02-23 03:52:36,451 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 03:52:36,459 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 03:52:36,660 - DEBUG - Starting component System
+2025-02-23 03:52:36,660 - DEBUG - Starting component Posthog
+2025-02-23 03:52:36,660 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 03:52:36,660 - DEBUG - Starting component SqliteDB
+2025-02-23 03:52:36,666 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 03:52:36,666 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 03:52:36,666 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 03:52:36,666 - DEBUG - Starting component LocalExecutor
+2025-02-23 03:52:36,666 - DEBUG - Starting component SegmentAPI
+2025-02-23 03:52:36,669 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 03:52:36,672 - INFO - Use pytorch device_name: cpu
+2025-02-23 03:52:36,672 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 03:52:36,674 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 03:52:36,806 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:52:36,858 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 03:52:36,907 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 03:52:37,021 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 03:52:37,083 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 03:52:37,136 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 03:52:37,173 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 03:52:37,185 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 03:52:37,412 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:52:37,630 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 03:52:37,777 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 03:52:37,866 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 03:52:37,925 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 03:52:37,942 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:52:37,943 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:52:37,945 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 03:52:37,945 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 03:52:37,945 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 03:52:37,945 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 03:52:37,945 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 03:52:37,945 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 03:52:38,511 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:52:45,364 - INFO - User Query: hello
+2025-02-23 03:52:45,379 - ERROR - \U0001f6a8 Embeddings retrieval failed! Results: {'ids': [['id_1', 'id_2', 'id_0']], 'embeddings': None, 'documents': [['What are the effects of stability on HOI4 gameplay?', 'How can I add an event that triggers after 100 days?', 'How do I create a custom focus tree?']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[1.7310069891121123, 1.9133492748453163, 1.9899438050051883]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2025-02-23 03:52:45,379 - WARNING - Low confidence query: 'hello' | Similarity Score: 0.0000
+2025-02-23 03:52:45,379 - INFO - Performance Score: 0/1 (0.00%)
+2025-02-23 03:52:45,698 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 03:53:06,002 - INFO - User Query: hello
+2025-02-23 03:53:06,016 - ERROR - \U0001f6a8 Embeddings retrieval failed! Results: {'ids': [['id_1', 'id_2', 'id_0']], 'embeddings': None, 'documents': [['What are the effects of stability on HOI4 gameplay?', 'How can I add an event that triggers after 100 days?', 'How do I create a custom focus tree?']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[1.7310069891121123, 1.9133492748453163, 1.9899438050051883]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2025-02-23 03:53:06,016 - WARNING - Low confidence query: 'hello' | Similarity Score: 0.0000
+2025-02-23 03:53:06,016 - INFO - Performance Score: 0/2 (0.00%)
+2025-02-23 04:01:11,302 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 04:01:11,311 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 04:01:11,568 - DEBUG - Starting component System
+2025-02-23 04:01:11,568 - DEBUG - Starting component Posthog
+2025-02-23 04:01:11,568 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 04:01:11,568 - DEBUG - Starting component SqliteDB
+2025-02-23 04:01:11,576 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 04:01:11,576 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 04:01:11,576 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 04:01:11,576 - DEBUG - Starting component LocalExecutor
+2025-02-23 04:01:11,576 - DEBUG - Starting component SegmentAPI
+2025-02-23 04:01:11,580 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 04:01:11,584 - INFO - Use pytorch device_name: cpu
+2025-02-23 04:01:11,584 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 04:01:11,587 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 04:01:11,708 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 04:01:11,758 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 04:01:11,807 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 04:01:11,902 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 04:01:11,961 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 04:01:12,016 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 04:01:12,065 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 04:01:12,085 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 04:01:12,304 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 04:01:12,463 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 04:01:12,570 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 04:01:12,624 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 04:01:12,682 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:01:12,708 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:01:12,709 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:01:12,709 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:01:12,709 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:01:12,709 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:01:12,710 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 04:01:12,710 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 04:01:12,711 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 04:01:12,711 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:01:12,711 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:01:12,711 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:01:12,897 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 04:02:51,701 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 04:02:51,709 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 04:02:51,911 - DEBUG - Starting component System
+2025-02-23 04:02:51,911 - DEBUG - Starting component Posthog
+2025-02-23 04:02:51,911 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 04:02:51,911 - DEBUG - Starting component SqliteDB
+2025-02-23 04:02:51,917 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 04:02:51,917 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 04:02:51,917 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 04:02:51,917 - DEBUG - Starting component LocalExecutor
+2025-02-23 04:02:51,917 - DEBUG - Starting component SegmentAPI
+2025-02-23 04:02:51,921 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 04:02:51,923 - INFO - Use pytorch device_name: cpu
+2025-02-23 04:02:51,923 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 04:02:51,925 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 04:02:52,067 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 04:02:52,116 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 04:02:52,163 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 04:02:52,210 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 04:02:52,257 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 04:02:52,306 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 04:02:52,353 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 04:02:52,434 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 04:02:52,711 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 04:02:52,729 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 04:02:52,844 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 04:02:52,899 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 04:02:52,960 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,977 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,978 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:52,980 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 04:02:52,980 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 04:02:52,980 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 04:02:52,980 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:02:52,980 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:02:52,981 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:02:53,297 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 04:03:11,829 - INFO - User Query: how do you create a focus tree?
+2025-02-23 04:03:11,850 - ERROR - \U0001f6a8 Embeddings retrieval failed! Results: {'ids': [['id_0', 'id_2', 'id_1']], 'embeddings': None, 'documents': [['How do I create a custom focus tree?', 'How can I add an event that triggers after 100 days?', 'What are the effects of stability on HOI4 gameplay?']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.20857273973656654, 1.927387601535595, 2.000421416623814]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2025-02-23 04:03:11,850 - WARNING - Low confidence query: 'how do you create a focus tree?' | Similarity Score: 0.0000
+2025-02-23 04:03:11,850 - INFO - Performance Score: 0/1 (0.00%)
+2025-02-23 04:03:12,180 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 04:03:15,173 - INFO - User Query: focus
+2025-02-23 04:03:15,187 - ERROR - \U0001f6a8 Embeddings retrieval failed! Results: {'ids': [['id_0', 'id_1', 'id_2']], 'embeddings': None, 'documents': [['How do I create a custom focus tree?', 'What are the effects of stability on HOI4 gameplay?', 'How can I add an event that triggers after 100 days?']], 'uris': None, 'data': None, 'metadatas': [[None, None, None]], 'distances': [[0.9141218792627641, 1.8019824014215517, 2.0260976565963826]], 'included': [<IncludeEnum.distances: 'distances'>, <IncludeEnum.documents: 'documents'>, <IncludeEnum.metadatas: 'metadatas'>]}
+2025-02-23 04:03:15,187 - WARNING - Low confidence query: 'focus' | Similarity Score: 0.0000
+2025-02-23 04:03:15,187 - INFO - Performance Score: 0/2 (0.00%)
+2025-02-23 04:05:49,354 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-02-23 04:05:49,362 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-02-23 04:05:49,562 - DEBUG - Starting component System
+2025-02-23 04:05:49,562 - DEBUG - Starting component Posthog
+2025-02-23 04:05:49,562 - DEBUG - Starting component OpenTelemetryClient
+2025-02-23 04:05:49,562 - DEBUG - Starting component SqliteDB
+2025-02-23 04:05:49,567 - DEBUG - Starting component SimpleQuotaEnforcer
+2025-02-23 04:05:49,567 - DEBUG - Starting component SimpleRateLimitEnforcer
+2025-02-23 04:05:49,567 - DEBUG - Starting component LocalSegmentManager
+2025-02-23 04:05:49,568 - DEBUG - Starting component LocalExecutor
+2025-02-23 04:05:49,568 - DEBUG - Starting component SegmentAPI
+2025-02-23 04:05:49,572 - DEBUG - Collection hoi4_vector_db already exists, returning existing collection.
+2025-02-23 04:05:49,575 - INFO - Use pytorch device_name: cpu
+2025-02-23 04:05:49,575 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-23 04:05:49,577 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-02-23 04:05:49,722 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 04:05:49,772 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-02-23 04:05:49,892 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+2025-02-23 04:05:49,986 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+2025-02-23 04:05:50,034 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2025-02-23 04:05:50,084 - DEBUG - Starting new HTTPS connection (1): us.i.posthog.com:443
+2025-02-23 04:05:50,086 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2025-02-23 04:05:50,132 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+2025-02-23 04:05:50,345 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
+2025-02-23 04:05:50,496 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-02-23 04:05:50,588 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6768
+2025-02-23 04:05:50,643 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6768
+2025-02-23 04:05:50,714 - DEBUG - Starting component PersistentLocalHnswSegment
+2025-02-23 04:05:50,736 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,736 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,736 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,736 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,736 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,737 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,738 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,738 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,738 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,738 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,738 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,740 - WARNING - Insert of existing embedding ID: id_0
+2025-02-23 04:05:50,740 - WARNING - Insert of existing embedding ID: id_1
+2025-02-23 04:05:50,740 - WARNING - Insert of existing embedding ID: id_2
+2025-02-23 04:05:50,741 - WARNING - Add of existing embedding ID: id_0
+2025-02-23 04:05:50,741 - WARNING - Add of existing embedding ID: id_1
+2025-02-23 04:05:50,741 - WARNING - Add of existing embedding ID: id_2
+2025-02-23 04:05:50,915 - DEBUG - https://us.i.posthog.com:443 "POST /batch/ HTTP/1.1" 200 15
